@@ -1,3 +1,5 @@
 /.idea
 /venv
 src/data
+src/fft_data
+src/fig

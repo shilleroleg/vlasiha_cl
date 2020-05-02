@@ -29,13 +29,11 @@ t_after = 0.015e-3       # время после максимума
 
 n_before = int(t_before / delta_t)      # Точек до максимум
 n_after = int(t_after / delta_t)        # Точек после максимума
-# print(n_before, n_after)
 
 # Уровень шума
 noise_1 = max(u1[0:1000]) * 1.1
 noise_2 = max(u2[0:1000]) * 1.1
 noise_3 = max(u3[0:1000]) * 1.1
-# print(noise_1)
 
 # plt.figure()
 # plt.plot(t1*1e3, u1+(noise_1+noise_2)*1.1, 'y',
